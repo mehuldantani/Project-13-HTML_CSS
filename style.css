@@ -185,3 +185,71 @@ img[alt~="listimage"]{
 img[alt~="service"]{
     width: 40px;
 }
+
+@media screen and (max-width: 769px){
+    .logo{
+        width: 10%;
+    }
+    .list{
+        display: none;
+    }
+    .logo-main{
+        width: 100px;
+    }
+    .lowernav, .container-a, .container-b,.container-c{
+        flex-direction: column;
+    }
+    .leftside .maintext,.leftside .info{
+        width: 150%;
+    }
+    .leftside{
+        margin-bottom: 100px;
+    }
+    .nav{
+        height: 1000px;
+    }
+    .service-card{
+        width: 400px;
+    }
+    .imagebox{
+        margin-left: 150px;
+    }
+    .container-b h1{
+        width: 100%;
+    }
+    .right-side .maintext{
+        width: 100%;
+    }
+    .detailband .info{
+        width: 100%;
+    }
+    .right-side{
+        text-align: center;
+    }
+    .service-card{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .uppernav{
+        margin-left: 10px;
+    }
+    .nav{
+        height: 800px;
+    }
+    .leftside .maintext,.leftside .info{
+        width: 200%;
+    }
+    .left-side{
+        margin: 40px;
+
+    }
+    img[alt~="hero"], img[alt~="leftimage"]{
+        width: 300px;
+    }
+    .nav,.container-a,.container-b,.container-c{
+        margin: 10px;
+    }
+}
