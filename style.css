@@ -156,11 +156,11 @@
     background-color: #f2e7f5;
 }
 
-.service-info-selected{
+.service-info:hover{
     background-color: #6429b7;
     color: white;
 }
-.service-info, .service-info-selected{
+.service-info{
     padding: 10px;
     border-radius: 10px;
     text-align: center;
